@@ -52,6 +52,6 @@ var server = http.createServer(function(request, response) {
   serverStatic(response, cache, absPath);
 });
 
-server.listen(8080, function() {
-  console.log("Server listening on port 8080");
+server.listen(80, function() {
+  console.log("Server listening on port 80");
 })
